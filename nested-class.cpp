@@ -40,6 +40,10 @@ int main() {
 	// We cannot create an object of a class B In the main function here since it is not a global class.
 	// 	B b_Object; Is invalid here;
 	// we can access the members of a class B Using the new object define inside a class A.
+	
+	// we can also access the members of a class B Using the scope resolution (::) operator as shown below.
+	A::B b_Object;
+	b_Object.getbData();
 	return 0;
 }
 
