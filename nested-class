@@ -3,7 +3,6 @@
 We can define a class inside other class definition. So this is called nesting of the class. The name of such nested class is local to the nesting class.
 
 */
-#include "pch.h"
 #include <iostream>
 class A {
 private:
