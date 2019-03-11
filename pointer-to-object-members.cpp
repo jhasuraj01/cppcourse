@@ -37,6 +37,8 @@ int main() {
 	q->data = 5;
 	//printing out the value of variable using pointer to an object.
 	std::cout << "\nThe value of data after modified by pointer to an object: " << q->data;
+	
+	return 0;
 }
 
 
